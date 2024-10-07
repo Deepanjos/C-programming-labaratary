@@ -1,0 +1,15 @@
+#include<srdio.h>
+int main()
+ {
+   int num,sell,get;
+
+ scanf("%d%d%d",&num,&sell,&get);
+
+ int tot,cost,profit;
+ tot=num*sell; 
+ cost=num*get+100;
+ profit=tot-cost;
+ 
+ printf("The profit obtained:Rs.%d",profit);
+ return 0;
+ }
