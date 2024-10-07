@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+ {
+   int language;
+
+   scanf("%d",&language);
+
+   int course;
+   course=language*2; 
+
+   printf("Available number of ourses%d",course);
+
+   return 0; 
+ }
